@@ -1,4 +1,4 @@
-# Implementando testes d eunidades com Jest.
+# Implementando testes de unidades com Jest.
 
 # Aplicação utilizada para realizar os testes: 
 O Organo é um aplicativo organizador de leituras que permite cadastrar livros, incluindo informações como título, autoria, imagem, gênero, data da leitura e classificação.
