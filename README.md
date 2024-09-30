@@ -44,7 +44,6 @@ npm uninstall karma karma-chrome-launcher karma-coverage-istanbul-reporter karma
 rm karma.config.js
 rm src/test.ts
 ```
-
 - Para modificar configurações em algunas arquivos, atráves do Schematic:
 ```
 ng add @briebug/jest-schematic
@@ -52,4 +51,8 @@ ng add @briebug/jest-schematic
 - Para rodar os testes no git bash:
 ```
 ng test
+```
+- Para visualizar a cobertura de código, que é uma métrica que auxilia a entender o quão bem os testes conseguiram cobrir o código fonte da aplicação.
+```
+ng test --coverage
 ```
