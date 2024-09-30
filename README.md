@@ -32,7 +32,7 @@ ng serve
 ```
 Então, acesse [http://localhost:4200/](url) no seu navegador.
 
-⚙️Alguns comandos que utilizados
+⚙️Alguns comandos utilizados
 
 - Para instalar o jest no projeto:
 ```
