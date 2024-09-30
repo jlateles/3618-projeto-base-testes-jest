@@ -44,6 +44,11 @@ npm uninstall karma karma-chrome-launcher karma-coverage-istanbul-reporter karma
 rm karma.config.js
 rm src/test.ts
 ```
+
+- Para modificar configurações em algunas arquivos, atráves do Schematic:
+```
+ng add @briebug/jest-schematic
+ ```
 - Para rodar os testes no git bash:
 ```
 ng test
