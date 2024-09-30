@@ -31,3 +31,20 @@ Depois, para executar o projeto em modo desenvolvimento:
 ng serve
 ```
 Então, acesse [http://localhost:4200/](url) no seu navegador.
+
+⚙️Alguns comandos que utilizados
+
+- Para instalar o jest no projeto:
+```
+npm install jest @types/jest@29.5.12 @angular-builders/jest@17.0.3 --save-dev
+```
+- Para desinstalar o karma e o jasmine: 
+```
+npm uninstall karma karma-chrome-launcher karma-coverage-istanbul-reporter karma-jasmine karma-jasmine-html-reporter karma-coverage jasmine-core
+rm karma.config.js
+rm src/test.ts
+```
+- Para rodar os testes no git bash:
+```
+ng test
+```
